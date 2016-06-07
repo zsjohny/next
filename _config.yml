@@ -10,7 +10,7 @@ keywords: "Hi,Johny"
 rss: /atom.xml
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -19,11 +19,11 @@ rss: /atom.xml
 menu:
   home: /
   categories: /categories
-  about: /about
+#  about: /about
   archives: /archives
   tags: /tags
 #  contact: /contact
-  #commonweal: /404.html
+#  commonweal: /404.html
 
 
 menu_icons:
@@ -217,6 +217,8 @@ auto_excerpt:
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # ---------------------------------------------------------------
+# baidutongji
+baidu_tongji: true
 
 # MathJax Support
 mathjax:
@@ -228,10 +230,11 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+#baidu_analytics: d32e2d991abd2ef5956de6938ff7f199
 
 # Duoshuo ShortName
 #duoshuo_shortname:
+duoshuo_share: true
 
 # Disqus
 #disqus_shortname:
@@ -269,6 +272,7 @@ duoshuo_info:
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
+
 
 
 # Facebook SDK Support.
