@@ -11,6 +11,14 @@
   <title>{% block title %}{% endblock %}</title>
 </head>
 
+
+
+{% if theme.leancloud_visitors.enable %}
+  	 {% include '_scripts/lean-analytics.swig' %}
+{%  endif %}
+
+
+
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ config.language }}">
 
   {% include '_scripts/third-party/analytics.swig' %}

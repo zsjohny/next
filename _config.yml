@@ -172,6 +172,10 @@ sidebar:
 #links:
   #Title: http://example.com/
 
+# title
+links_title: Links
+links:
+  Loginsight Blog: http://blog.loginsight.cn/  
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -218,7 +222,17 @@ auto_excerpt:
 # Third Party Services Settings
 # ---------------------------------------------------------------
 # baidutongji
-baidu_tongji: true
+#baidu_tongji: true
+# 百度统计 http://sitecenter.baidu.com/sc-web/
+# 查看代码，填入 //hm.baidu.com/hm.js? 之后的内容
+baidu_tongji: d32e2d991abd2ef5956de6938ff7f199
+
+# 不蒜子网站计数设置
+# http://ibruce.info/2015/04/04/busuanzi/
+visit_counter:
+  on: true
+  site_visit: 本站到访数
+  page_visit: 本页阅读量
 
 # MathJax Support
 mathjax:
@@ -284,13 +298,14 @@ facebook_sdk:
   like_button:  #true
   webmaster:    #true
 
-
+#####阅读量
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+    enable: true
+    app_id: 19mJpEDVQ3QMTWtF18wGfnVt-gzGzoHsz
+    app_key: YIzI3RQxBF5g0bDiRBL6cNPv
+
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -379,12 +394,24 @@ images: images
 
 duoshuo_shortname: music-come
 
-#widgets:
-#  - category
-#  - tag
-#  - tagcloud
-#  - archive
-#  - recent_posts
+widgets:
+  - category
+  - tag
+  - tagcloud
+  - archive
+  - recent_posts
+
+#“Destiny is not a matter of chance; it is a matter of choice. It is not a thing to be waited for, it is a thing to be achieved.”
+reward_comment: “Destiny is not a matter of chance; it is a matter of choice. It is not a thing to be waited for, it is a thing to be achieved.”
+wechatpay: /weixinpay.jpg
+#alipay: /alipay.jpg
+
+wechat_subscriber:
+  enabled: true
+  qcode: /weixin.png
+  description: 欢迎您扫一扫上面的微信二维码，订阅我的博客！
+
+
 
 avatar: /uploads/avatar.png
 # Theme version
