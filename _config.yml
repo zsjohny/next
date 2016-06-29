@@ -249,7 +249,6 @@ mathjax:
 
 # Duoshuo ShortName
 #duoshuo_shortname:
-duoshuo_share: true
 
 # Disqus
 #disqus_shortname:
@@ -257,8 +256,8 @@ duoshuo_share: true
 # Baidu Share
 # Available value:
 #    button | slide
-#baidushare:
-##  type: button
+baidushare:
+  type: slide
 
 # Share
 #jiathis:
