@@ -23,3 +23,14 @@
 
 |  本站总访问量<span id="busuanzi_value_site_pv"></span>次
 |  你是第<span id="busuanzi_value_site_uv"></span>个访问本站的小伙伴~<span class="with-love"><i class="fa fa-heart"></i></span>
+
+    {% if theme.birth_day %}
+      <span id="showDays" class="show-days"></span>
+      <script>
+      var birthDay = new Date('{{ theme.birth_day }}');
+      var now = new Date();
+      var duration = now.getTime() - birthDay.getTime();
+      var total= Math.floor(duration / (1000 * 60 * 60 * 24));
+      document.getElementById("showDays").innerHTML = "俺已苟延残喘 "+total+" 天了。。。";
+      </script>
+    {% endif %}
