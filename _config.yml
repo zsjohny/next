@@ -202,10 +202,11 @@ highlight_theme: normal
 scroll_to_more: true
 
 
+# read more
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: true
+  enable: false
   length: 25
 
 
@@ -283,7 +284,7 @@ duoshuo_share: true
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
+  admin_enable: true
   user_id: 0
   #admin_nickname: Author
 
