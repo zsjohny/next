@@ -129,6 +129,10 @@ social_icons:
   Twitter: twitter
   Weibo: weibo
   Facebook: facebook
+  Google: google-plus
+  Weixin: weixin
+  Mail: envelope
+  Douban: lemon-o
 
 
 # Sidebar Avatar
@@ -412,7 +416,7 @@ wechatpay: /weixinpay.jpg
 wechat_subscriber:
   enabled: true
   qcode: /weixin.png
-  description: 欢迎您扫一扫上面的微信二维码，订阅我的博客！
+  description: 欢迎您扫一扫上面的微信二维码,加我微信！
 
 
 
